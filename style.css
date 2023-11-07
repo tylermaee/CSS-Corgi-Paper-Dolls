@@ -84,7 +84,7 @@ main {
 .absolute-corgi img  {
     margin-right: 1em;
 }
-.absolute-game-board {
+.absolute-game-board 
     position: relative;
 }
 .bowtie {
@@ -97,7 +97,10 @@ main {
 }
 .bandana {
     width: 80px;
-    transform: rotate(10deg);
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
 }
 .fixed-corgi {
     margin-right: 1em;
@@ -107,6 +110,10 @@ main {
 }
 .pawprint {
     width: 45px;
+    position: fixed;
+    top: 3em;
+    left: 65px;
+
 }
 .sticky { 
     overflow: auto;
@@ -117,6 +124,8 @@ main {
 }
 .sticky img {
     margin-right: 1em;
+    position: sticky;
+    left: 0;
 }
 .stick-clothing {
     z-index: 1;
@@ -135,4 +144,10 @@ main {
     left: 133px;
     top: -10px;
     width: 40px;
+    z-index: 1;
+}
+.funny-glasses {
+    position: relative;
+    bottom: 109px;
+    left: 212px;
 }
